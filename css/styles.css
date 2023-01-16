@@ -246,10 +246,12 @@
 .personal-soc-icon {
   fill: var(--icon-color);
 }
-.personal-soc-link :hover {
+.personal-soc-link:hover,
+.personal-soc-link:focus {
   background-color: var(--accent-color);
 }
-.personal-soc-link:hover .personal-soc-icon {
+.personal-soc-link:hover .personal-soc-icon,
+.personal-soc-link:focus .personal-soc-icon  {
   fill: var(--hero-color);
 }
 .contacts-link {
