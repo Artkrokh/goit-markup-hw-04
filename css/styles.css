@@ -354,8 +354,6 @@
 .address-link :focus {
   color: var(--accent-color);
 }
-.social-networks {
-}
 .social-title {
   text-transform: uppercase;
   color: var(--background-color);
