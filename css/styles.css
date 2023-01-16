@@ -87,7 +87,9 @@
 .hero {
   padding: 200px 0;
   background-image: url(../images/background-img.jpg);
-
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto 100%;
 }
 .hero-title {
   text-transform: uppercase;
