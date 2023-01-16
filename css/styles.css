@@ -229,13 +229,15 @@
   margin-bottom: 16px;
 }
 .personal-soc-lsit {
-
+  display: flex;
+  justify-content: center;
+  gap: 10px;
 }
 .personal-soc-item {
-
+  
 }
 .personal-soc-link {
-  
+
 }
 .contacts-link {
   font-weight: 500;
