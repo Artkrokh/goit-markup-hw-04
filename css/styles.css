@@ -86,7 +86,8 @@
 }
 .hero {
   padding: 200px 0;
-  background: var(--fon-color);
+  background-image: url(../images/background-img.jpg);
+
 }
 .hero-title {
   text-transform: uppercase;
