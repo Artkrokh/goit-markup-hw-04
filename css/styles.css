@@ -48,7 +48,7 @@
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.19;
+  line-height: 1.2;
   text-decoration: none;
 }
 .logo-head {
@@ -325,6 +325,7 @@
   color: var(--accent-color);
 }
 .footer {
+  display: flex;
   padding: 60px 0;
   background: var(--fon-color);
 }
@@ -341,13 +342,24 @@
   line-height: 1.17;
   color: var(--addres-text);
 }
+.address-link {
+  width: auto;
+}
 .address-link :hover,
 .address-link :focus {
   color: var(--accent-color);
 }
+.social-networks {
+}
+.social-title {
+  text-transform: uppercase;
+  color: var(--background-color);
+  padding-bottom: 20px;
+  font-size: 14px;
+  line-height: 1.1;
+}
 .social-list {
   display: flex;
-  justify-content: center;
   gap: 10px;
 }
 .social-item {
