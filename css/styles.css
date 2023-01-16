@@ -247,7 +247,7 @@
 .contacts-link {
   font-weight: 500;
   color: var(--text-color);
-  background-color: #ffffff;
+  background-color: var(--background-color);
 }
 .portfolio {
   padding: 94px 0;
