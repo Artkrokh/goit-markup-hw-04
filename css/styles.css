@@ -186,6 +186,15 @@
   margin-top: 10px;
   color: var(--text-color);
 }
+.planning{
+  display: flex;
+  width: 270px;
+  height: 120px;
+  background: #F5F4FA;
+  border-radius: 4px;
+  justify-content: center;
+align-items: center;
+}
 .ocupation {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -203,9 +212,11 @@
   margin-top: 50px;
 }
 .team {
+  background: var(--background-team);
+}
+.section {
   padding-top: 94px;
   padding-bottom: 94px;
-  background: var(--background-team);
 }
 .team-cart {
   padding-top: 30px;
@@ -334,9 +345,6 @@
   padding: 60px 0;
   background: var(--fon-color);
 }
-.basement {
-  display: flex;
-}
 .address {
   margin-top: 20px;
   line-height: 1.714;
@@ -427,4 +435,7 @@
 .portfolio-filtr-link :focus {
   color: var(--hero-color);
   background-color: var(--accent-color);
+}
+.basement {
+  display: flex;
 }
