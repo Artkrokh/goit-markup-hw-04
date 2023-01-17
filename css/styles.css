@@ -344,13 +344,13 @@
 .nav-link :focus {
   color: var(--accent-color);
 }
-.contacts-link :hover,
-.contacts-link :focus {
+.contacts-text :hover,
+.contacts-text :focus {
   color: var(--accent-color);
 }
 
-.contacts-link:hover .contacts-icon,
-.contacts-link:focus .contacts-icon {
+.contacts-text:hover .contacts-icon,
+.contacts-text:focus .contacts-icon {
   fill: var(--accent-color);
 }
 .footer {
