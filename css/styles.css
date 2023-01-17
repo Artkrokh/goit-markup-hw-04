@@ -10,6 +10,7 @@
   --background-team: #f5f4fa;
   --border-color: #eeeeee;
   --header-line: #ececec;
+  --icon-color: #AFB1B8;
 }
 .nav-list,
 .contacts,
@@ -228,21 +229,30 @@
   color: var(--text-color);
   margin-bottom: 16px;
 }
-.personal-soc-lsit {
+.personal-soc-list {
   display: flex;
   justify-content: center;
   gap: 10px;
 }
-.personal-soc-item {
+.personal-soc-link {
   width: 44px;
   height: 44px;
-}
-.personal-soc-link {
-  width: 100%;
-  height: 100%;
   border-radius: 50%;
-  background-color: var(--text-color);
-  display: block;
+  background-color: var(--background-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.personal-soc-icon {
+  fill: var(--icon-color);
+}
+.personal-soc-link:hover,
+.personal-soc-link:focus {
+  background-color: var(--accent-color);
+}
+.personal-soc-link:hover .personal-soc-icon,
+.personal-soc-link:focus .personal-soc-icon  {
+  fill: var(--hero-color);
 }
 .contacts-link {
   font-weight: 500;
