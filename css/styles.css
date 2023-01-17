@@ -332,6 +332,7 @@
 .address {
   margin-top: 20px;
   line-height: 1.714;
+  
 }
 .address-text {
   text-decoration: none;
@@ -342,14 +343,9 @@
   line-height: 1.17;
   color: var(--addres-text);
 }
-.address-link {
-  width: auto;
-}
 .address-link :hover,
 .address-link :focus {
   color: var(--accent-color);
-}
-.social-networks {
 }
 .social-title {
   text-transform: uppercase;
