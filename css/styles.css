@@ -334,10 +334,8 @@
   padding: 60px 0;
   background: var(--fon-color);
 }
-.bottom {
+.basement {
   display: flex;
-  margin: 0 auto;
-  padding: 0 15px;
 }
 .address {
   margin-top: 20px;
