@@ -381,15 +381,15 @@
   align-items: center;
   justify-content: center;
 }
-.social-icon {
+.footer-social-icon {
   fill: var(--hero-color);
 }
 .social-link:hover,
 .social-link:focus {
   background-color: var(--accent-color);
 }
-.social-link:hover .social-icon,
-.social-link:focus .social-icon {
+.social-link:hover .footer-social-icon,
+.social-link:focus .footer-social-icon {
   fill: var(--hero-color);
 }
 .portfolio-filtr-link :hover,
