@@ -106,7 +106,7 @@
   gap: 10px;
   justify-content: center;
 }
-.contakcts-icon {
+.contacts-icon {
   fill: var(--text-color);
 }
 .hero {
@@ -349,8 +349,8 @@
   color: var(--accent-color);
 }
 
-.contacts-link:hover .contakcts-icon,
-.contacts-link:focus .contakcts-icon {
+.contacts-link:hover .contacts-icon,
+.contacts-link:focus .contacts-icon {
   fill: var(--accent-color);
 }
 .footer {
