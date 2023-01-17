@@ -148,10 +148,6 @@
 .specifics {
   padding-top: 94px;
 }
-.specifics-container {
-  display: flex;
-  justify-content: center;
-}
 .specifics-caption {
   position: absolute;
   white-space: nowrap;
@@ -193,7 +189,8 @@
   background: #F5F4FA;
   border-radius: 4px;
   justify-content: center;
-align-items: center;
+  align-items: center;
+  margin-bottom: 30px;
 }
 .ocupation {
   padding-top: 94px;
@@ -340,6 +337,25 @@ align-items: center;
   font-size: 14px;
   line-height: 1.17;
   color: var(--hero-color);
+}
+.customers {
+font-weight: 700;
+font-size: 36px;
+line-height: calc(42 / 36);
+text-align: center;
+letter-spacing: 0.03em;
+}
+.customers-item {
+  display: flex;
+}
+.customers-list {
+  gap: 30px
+}
+.customers-link {
+  width: 170px;
+  height: 92px;
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
 }
 .footer {
   padding: 60px 0;
