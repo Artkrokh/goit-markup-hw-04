@@ -331,16 +331,13 @@
   color: var(--hero-color);
 }
 .footer {
-  display: flex;
   padding: 60px 0;
   background: var(--fon-color);
 }
-.container-footer {
+.bottom {
   display: flex;
-  width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
-  align-items: center;
 }
 .address {
   margin-top: 20px;
@@ -359,11 +356,12 @@
   text-decoration: none;
   color: var(--text-color);
 }
-.social-container-one {
+.social-container:last-child {
   width: 231px;
-}
-.social-container-two {
   margin-left: 70px;
+}
+.social-title{
+  padding-top: 12px;
 }
 .nav-list .contacts :hover,
 .header :focus {
@@ -401,7 +399,6 @@
 }
 .social-list {
   display: flex;
-  justify-content: center;
   gap: 10px;
 }
 .social-item {
