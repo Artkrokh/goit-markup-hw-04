@@ -379,13 +379,19 @@
 .contacts-text:focus {
   color: var(--accent-color);
 }
+.address-link {
+  margin-top: 9px;
+}
+.address-link:first-child {
+  margin: 0;
+}
 
 .contacts-text:hover .contacts-icon,
 .contacts-text:focus .contacts-icon {
   fill: var(--accent-color);
 }
-.address-link :hover,
-.address-link :focus {
+.address-text:hover,
+.address-text:focus {
   color: var(--accent-color);
 }
 .social-title {
