@@ -10,7 +10,7 @@
   --background-team: #f5f4fa;
   --border-color: #eeeeee;
   --header-line: #ececec;
-  --icon-color: #AFB1B8;
+  --icon-color: #afb1b8;
 }
 .nav-list,
 .contacts,
@@ -251,7 +251,7 @@
   background-color: var(--accent-color);
 }
 .personal-soc-link:hover .personal-soc-icon,
-.personal-soc-link:focus .personal-soc-icon  {
+.personal-soc-link:focus .personal-soc-icon {
   fill: var(--hero-color);
 }
 .contacts-link {
@@ -342,7 +342,6 @@
 .address {
   margin-top: 20px;
   line-height: 1.714;
-  
 }
 .address-text {
   text-decoration: none;
