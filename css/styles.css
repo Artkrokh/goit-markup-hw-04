@@ -332,7 +332,7 @@
   line-height: 1.17;
   color: var(--hero-color);
 }
-.container {
+.container-fotter {
   display: flex;
 }
 .contacts-text {
@@ -347,8 +347,8 @@
 .nav-link :focus {
   color: var(--accent-color);
 }
-.contacts-text :hover,
-.contacts-text :focus {
+.contacts-text:hover,
+.contacts-text:focus {
   color: var(--accent-color);
 }
 
