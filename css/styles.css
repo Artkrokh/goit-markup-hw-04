@@ -163,6 +163,7 @@ p {
   background: var(--accent-color);
   border-radius: 4px;
   display: block;
+  letter-spacing: inherit;
 }
 .specifics {
   padding-top: 94px;
