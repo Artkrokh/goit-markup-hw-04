@@ -502,4 +502,5 @@ p {
 }
 .basement {
   display: flex;
+  align-items: baseline;
 }
